@@ -1,4 +1,29 @@
-
+.luv-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width : 700px;
+    height: 300px;
+    border: 1px solid var(--basic);
+}
+.main-contents-luvwebtoon__hashtag{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: var(--basic);
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 400;
+}
+.main-contents-luvwebtoon__text{
+    margin-bottom: 50px;
+}
+.main-contents-luvwebtoon__text li{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
 .main-contents-webtoons{
     display:flex;
     justify-content: space-around;
