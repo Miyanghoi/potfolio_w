@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+header{
+    display: flex;    
+    flex-direction: center;
+    align-content: center;
+    margin: 10px;
+    margin-bottom: 60px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#header__img{
+    height: 80px;
+    width: 80px;
+}
+#header-comment{
+    font-size: 20px;
+    font-style: bold;
+    color: var(--basic);
+    padding-top: 40px;
+    margin-left: 10px;    
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 400;
+}

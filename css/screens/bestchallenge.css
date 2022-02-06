@@ -1,0 +1,67 @@
+.main-contents-subtitle__spano{
+    color: orange;
+}
+.main-contents-challenge-subtitle h6{
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.main-contents-service_div li{
+    list-style: none;
+}
+.main-contents-challenge__text{
+    margin-bottom: 50px;
+}
+.main-contents-challenge__text li{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:  grey;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-contents-service{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+.main-contents-service_div {
+    margin-right: 60px;
+}
+.main-contents-service_div li{
+    margin-bottom: 20px;
+}
+.main-contents-service_div img{
+    height : 100px;
+    width: 100px;
+    border-radius: 50px;
+   
+}
+.main-contents-service_div h6{
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@keyframes highlightimg {
+    from {            
+    }
+    to {
+        box-shadow: 5px 5px 10px tomato;
+    }
+}
+.img_ani{
+    border: 1px solid tomato;
+    animation: highlightimg 1s ease-in-out infinite;
+}
+.main-contents-service__text{
+    margin-bottom: 50px;
+}
+.main-contents-service__text li{
+    list-style: none;
+}

@@ -1,0 +1,71 @@
+.main-contents{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.main-contents-subtitle{    
+    display: flex;    
+    flex-direction: center;
+    align-content: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.fa-chevron-left{
+    color:var(--basic)
+}
+.main-contents-subtitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-contents-subtitle__spang{
+    color: var(--basic);
+}
+.main-contents-subcont_div{
+    display: flex;    
+    flex-direction: center;
+    align-content: center;    
+}
+.main-contents-subcont_div li{
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.main-contents-subcont_div img{
+    width: 215px;
+    height: 122px;
+}
+.main-contents-subcont_div h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.main-contents-subcont_div p{
+    font-size: 5px;
+}
+
+@keyframes hideSplashScreen {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+}
+
+#splash-screen {    
+    background-color: var(--basic);
+    position: absolute;
+    width: 55%;
+    height: 130vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hideSplashScreen 1.5s ease-in-out forwards;
+    animation-delay: 0.3s;
+}

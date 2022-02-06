@@ -1,0 +1,28 @@
+main{
+    margin: 10px;    
+    height: 130vh;
+}
+#main-menu{
+    height: 45px;    
+    text-align: center;
+    display: flex;    
+    flex-direction: center;
+    align-content: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+}
+.main-menu__span{  
+    padding: 15px;    
+}
+.main-menu__span-current{   
+    padding: 15px;
+    background-color: var(--basic);
+    color: white;
+}
